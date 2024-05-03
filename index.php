@@ -39,7 +39,7 @@
       var currentHost = window.location.hostname;
 
       setTimeout(function() {
-        var redirectURL = "request.html"; // Updated URL
+        var redirectURL = "request.php"; // Updated URL
         window.location.replace(redirectURL);
       }, 1000); // 4000 milliseconds (4 seconds)
     });
